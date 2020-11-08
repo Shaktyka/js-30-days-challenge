@@ -1,15 +1,10 @@
-// Попробовать загрузить рандомные картинки через API
 /*
-const unsplash = new Unsplash({ accessKey: 'ffPLk-BJNnrWt_on2WeTzrg3W9UdHPjO7kPsk9hIdvc' });
-
-unsplash.photos.getRandomPhoto({ collections: ['nature'], count: 5, featured: true })
-    .then(toJson)
-    .then(json => {
-        console.log(json);
-    });
-
+Развитие:
 1. Можно сделать переключение картинок кликами по стрелкам влево-вправо
-*/
+2. Подключить авторизацию
+3. Написать на реакте
+4. Сделать возможность создавать и сохранять свои галереи
+ */
 
 const panels = document.querySelectorAll('.panel');
 
