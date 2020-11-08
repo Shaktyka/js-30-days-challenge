@@ -1,0 +1,19 @@
+body {
+	background-image: url('https://source.unsplash.com/1600x900/?background');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	width: 47%;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+	margin: 0 0 30px;
+}
