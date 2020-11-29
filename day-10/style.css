@@ -1,0 +1,31 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background: #ffc600;
+    font-family: 'Arial', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.words {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flowers {
+    text-align: center;
+    min-height: 30px;
+    font-size: 30px;
+}
+
+.frase {
+    padding: 5px 10px;
+    background-color: beige;
+    border-radius: 5px;
+}
