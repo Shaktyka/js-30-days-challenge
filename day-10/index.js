@@ -45,7 +45,7 @@ recognition.addEventListener('result', (evt) => {
         flowers.textContent = flowers.textContent + ' ' + '🙈';
     } else if (transcript.includes('программирование')) {
         flowers.textContent = flowers.textContent + ' ' + '❤️';
-    } else if (transcript.includes('очисти')) {
+    } else if (transcript.includes('очистить')) {
         clear();
     }
 });
